@@ -13,6 +13,8 @@ const Header = () => {
     }
   }, []);
 
+  
+
   const logoutHandler = () => {
     localStorage.removeItem("user");
     message.success("Logout Successfully");
