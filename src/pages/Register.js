@@ -28,6 +28,7 @@ const Register = () => {
     }
   }, [navigate]);
   return (
+    
     <>
       <div className="register-page ">
         {loading && <Spinner />}

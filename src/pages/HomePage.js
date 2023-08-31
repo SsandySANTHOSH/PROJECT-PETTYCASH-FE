@@ -137,6 +137,7 @@ const HomePage = () => {
     }
   };
 
+  
   return (
     <Layout>
       {loading && <Spinner />}
